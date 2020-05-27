@@ -1,9 +1,9 @@
 # Rotation Order
 
-- Michael D
+- Michael N
 - Christian 
 - Lisi 
-- Florian N
+- Florian D
 
 
 # Goals
