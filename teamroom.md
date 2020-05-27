@@ -1,7 +1,13 @@
 # Rotation Order
 
-Christian D
-Lisi
+Michael 
+Christian N
+Lisi D
 Florian
-Michael
-Bene N
+
+
+# Goals
+
+- [ ] Get mob tool running for whole team
+    - [ ] might be necessary to run git bash from windows cmd
+- [ ] Decide which problem to tackle
