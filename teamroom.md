@@ -1,7 +1,7 @@
 # Rotation Order
 
 - Michael N
-- Christian       Das ist ein Test
+- Christian
 - Lisi 
 - Florian D
 
