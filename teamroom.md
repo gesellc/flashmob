@@ -1,7 +1,7 @@
 # Rotation Order
 
 - Michael N
-- Christian sdf 
+- Christian 
 - Lisi 
 - Florian D
 
