@@ -14,4 +14,6 @@
 
 # Get mob tool & git working FGR:
 
-- I'm now on master branch, therefore lets try to push this change via GUI to master branch! 
+- I'm now on master branch, therefore lets try to push this change via GUI to master branch!
+   - That just worked fine! No pwd or user name request
+- Well, lets try this via git bash! 
