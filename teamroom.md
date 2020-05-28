@@ -13,3 +13,6 @@
 - [ ] Decide which problem to tackle
 
 # Get mob tool & git working FGR:
+
+- Well, interesting. All my changes are gone... after mob start...
+Guess they are on master branch...
