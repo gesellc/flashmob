@@ -21,4 +21,7 @@
 - Try help from stackOverflow regarding credential:
     - in git bash type: "git config --global credential.helper wincred"
     - Time to push again, this should ask once more for credential
+       - It asked for credentials again
+    - No lets try to push again and see if credentials are still required
+    
      
