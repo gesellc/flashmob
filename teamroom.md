@@ -27,6 +27,7 @@
     - CONCLUTION: at least credential manager link was missing.
 - It's time for mob start/mob next
     - Lets push current changes before "mob start"
+    - It is working!
 
     
      
