@@ -16,4 +16,9 @@
 
 - I'm now on master branch, therefore lets try to push this change via GUI to master branch!
    - That just worked fine! No pwd or user name request
-- Well, lets try this via git bash! 
+- Well, lets try this via git bash!
+   - Not working well so far. I'm asked for user name and pwd again. More details see "Miro"
+- Try help from stackOverflow regarding credential:
+    - in git bash type: "git config --global credential.helper wincred"
+    - Time to push again, this should ask once more for credential
+     
