@@ -23,5 +23,10 @@
     - Time to push again, this should ask once more for credential
        - It asked for credentials again
     - No lets try to push again and see if credentials are still required
+       - "Ja sauber die Musi!" Success! no credentials asked for!
+    - CONCLUTION: at least credential manager link was missing.
+- It's time for mob start/mob next
+    - Lets push current changes before "mob start"
+
     
      
