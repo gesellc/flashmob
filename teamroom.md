@@ -1,8 +1,8 @@
 # Rotation Order
 
-- Florian N
-- Bene D
-- Christian
+- Florian
+- Bene N
+- Christian D
 - Lisi 
 - Michael 
 
