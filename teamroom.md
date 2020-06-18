@@ -1,10 +1,10 @@
 # Rotation Order
 
-- Florian
+- Florian D
 - Bene 
 - Christian
-- Lisi N
-- Michael D
+- Lisi
+- Michael N
 
 
 # Goals
