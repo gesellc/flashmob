@@ -1,10 +1,10 @@
 # Rotation Order
 
-- Florian D
-- Bene
+- Florian N
+- Bene D
 - Christian
 - Lisi
-- Michael N
+- Michael 
 
 # Micro Retro
 
@@ -25,13 +25,19 @@ hold back - be empathic
 
 First Step:
  - understand the problem / task
-    Internetseite Öko Kiste
+    Target: Internetseite Öko Kiste
+
+    Near to implementation
+       Provide reminder for triggering the order (Fester Zeitpunkt in der Woche? Reminder Di. Mi Bestellen - Fr. Lieferung).
+    
+    Describing customer value
+       Saving time
+         
     Merkliste -> Einmal eine Fixe Liste erstellen. Seltene Sachen (Milch... alle 3 Wochen bestellen...)  
     Bestellung nicht automatisch auslösen, per Knopf auslösen
     Email Bestätigung
-    Fester Zeitpunkt in der Woche? Reminder Di. Mi Bestellen - Fr. Lieferung
     
-    Ziel: Zeit einsparen
+    
 
 
 # Get mob tool & git working FGR:
