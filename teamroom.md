@@ -1,10 +1,10 @@
 # Rotation Order
 
-- Florian
+- Florian D
 - Bene
 - Christian
-- Lisi N
-- Michael D
+- Lisi
+- Michael N
 
 # Micro Retro
 
@@ -20,7 +20,19 @@ hold back - be empathic
 
 - [x] Get mob tool running for whole team
     - [ ] might be necessary to run git bash from windows cmd
-- [ ] Decide which problem to tackle
+- [x] Decide which problem to tackle
+    -> A "Bio-Kiste" Helper that pre-fills the shopping cart or can be seen as a subscription
+
+First Step:
+ - understand the problem / task
+    Internetseite Öko Kiste
+    Merkliste -> Einmal eine Fixe Liste erstellen. Seltene Sachen (Milch... alle 3 Wochen bestellen...)  
+    Bestellung nicht automatisch auslösen, per Knopf auslösen
+    Email Bestätigung
+    Fester Zeitpunkt in der Woche? Reminder Di. Mi Bestellen - Fr. Lieferung
+    
+    Ziel: Zeit einsparen
+
 
 # Get mob tool & git working FGR:
 
