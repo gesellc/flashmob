@@ -1,9 +1,9 @@
 # Rotation Order
 
 - Florian
-- Bene N
-- Christian D
-- Lisi
+- Bene
+- Christian N
+- Lisi D
 - Michael 
 
 # Micro Retro
@@ -32,12 +32,18 @@ First Step:
     Target: Internetseite Öko Kiste
 
     Near to implementation
+       Fill Shopping Cart from existing reminder list
        Provide reminder for triggering the order (Fester Zeitpunkt in der Woche? Reminder Di. Mi Bestellen - Fr. Lieferung).
-    
+       
     Describing customer value
        Saving time
+    
+    
+    
+    
          
     Merkliste -> Einmal eine Fixe Liste erstellen. Seltene Sachen (Milch... alle 3 Wochen bestellen...)  
+    
     Bestellung nicht automatisch auslösen, per Knopf auslösen
     Email Bestätigung
     
