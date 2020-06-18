@@ -1,9 +1,9 @@
 # Rotation Order
 
 - Florian
-- Bene N
-- Christian D
-- Lisi
+- Bene
+- Christian N
+- Lisi D
 - Michael
 
 # Micro Retro
