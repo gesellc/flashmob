@@ -2,9 +2,9 @@
 
 - Florian
 - Bene
-- Christian N
-- Lisi D
-- Michael
+- Christian
+- Lisi N
+- Michael D
 
 # Micro Retro
 
