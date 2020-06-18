@@ -1,15 +1,24 @@
 # Rotation Order
 
-- Florian D
-- Bene 
-- Christian
+- Florian
+- Bene N
+- Christian D
 - Lisi
-- Michael N
+- Michael
 
+# Micro Retro
+
+keep micro retros
+stay flexible
+do not hesitate to improve your team mates
+focus on a specific goal
+call out next speaker according to list
+stick to roles: driver only does what he/she has been told, navigator: stay mobber-aware
+hold back - be empathic
 
 # Goals
 
-- [ ] Get mob tool running for whole team
+- [x] Get mob tool running for whole team
     - [ ] might be necessary to run git bash from windows cmd
 - [ ] Decide which problem to tackle
 
