@@ -29,25 +29,17 @@ driver: clearify immediately
 
 First Step:
  - understand the problem / task
-    Target: Internetseite Öko Kiste
+    Target: website "Öko Kiste"
 
     Near to implementation
        Fill Shopping Cart from existing reminder list
-       Provide reminder for triggering the order (Fester Zeitpunkt in der Woche? Reminder Di. Mi Bestellen - Fr. Lieferung).
+       Provide reminder (e.g. email, push notification, etc.) for triggering the order (fixed time in the week? reminder latest on Tuesday, order latest on Wednesdays, box gets delivered on Friday).
        
     Describing customer value
        Saving time
-    
-    
-    
-    
-         
-    Merkliste -> Einmal eine Fixe Liste erstellen. Seltene Sachen (Milch... alle 3 Wochen bestellen...)  
-    
-    Bestellung nicht automatisch auslösen, per Knopf auslösen
-    Email Bestätigung
-    
-    
+       Create fixed list only once
+       Handle rarely needed items like get reminder to order milk every 3 weeks
+       Keep very easy control over actual purchase by reviewing order
 
 
 # Get mob tool & git working FGR:
