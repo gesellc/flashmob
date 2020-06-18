@@ -1,20 +1,24 @@
 # Rotation Order
 
-- Florian N
-- Bene D
-- Christian
+- Florian
+- Bene N
+- Christian D
 - Lisi
 - Michael 
 
 # Micro Retro
 
 keep micro retros
-stay flexible
+* stay flexible
 do not hesitate to improve your team mates
 focus on a specific goal
 call out next speaker according to list
 stick to roles: driver only does what he/she has been told, navigator: stay mobber-aware
 hold back - be empathic
+make transition perfect
+** start to code
+mind closing time
+driver: clearify immediately
 
 # Goals
 
