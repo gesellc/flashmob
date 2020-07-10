@@ -9,10 +9,10 @@ import yaml
 
 def test_request():
     with open(r'config.yml') as file:
-        print(file)
-        print(yaml.load(file))
+        config = yaml.load(file)
+    print(config)
 
-    api_key = '<replace-with-your-api-key>'
+    api_key = config['k']
     api_secret = '<replace-with-your-api-secret>'
     image_url = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg'
 
