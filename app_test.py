@@ -8,7 +8,7 @@ import requests
 import yaml
 
 def test_request():
-    stream = file('document.yaml', 'r')  # 'document.yaml' contains a single YAML document.
+    stream = file('config.yaml', 'k')  # 'document.yaml' contains a single YAML document.
     yaml.load(stream)
 
     api_key = '<replace-with-your-api-key>'

@@ -1,8 +1,8 @@
 # Rotation Order
 
-- Florian 
-- Christian N
-- Lisi D
+- Florian D 
+- Christian 
+- Lisi N
 
 # Micro Retro
 
