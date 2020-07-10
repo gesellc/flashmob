@@ -7,11 +7,14 @@
 # Micro Retro
 
 10.07.2020
-'**' making behaviors more efficient (how to rotate)
+'****' making behaviors more efficient (how to rotate)
 '*' reducing waste
 time window for rotation kept
-'*' team starts to groove
+'**' team starts to groove, flow is getting better and better!
 focused on objective
+we shared knowledge (automatic start of tests)
+'**' take care that everybody has the same point of understanding (don't haste)
+we really coded! Progress
 
 
 from the olden times:
