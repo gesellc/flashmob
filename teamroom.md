@@ -1,10 +1,20 @@
 # Rotation Order
 
-- Florian N
-- Christian D
-- Lisi
+- Florian 
+- Christian N
+- Lisi D
 
 # Micro Retro
+
+10.07.2020
+'**' making behaviors more efficient (how to rotate)
+'*' reducing waste
+time window for rotation kept
+'*' team starts to groove
+focused on objective
+
+
+from the olden times:
 
 keep micro retros
 * stay flexible

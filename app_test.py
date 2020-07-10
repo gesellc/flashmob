@@ -5,9 +5,11 @@ def test_example():
     assert "This" == "This"
 
 import requests
-import pyyaml
+import yaml
 
 def test_request():
+    stream = file('document.yaml', 'r')  # 'document.yaml' contains a single YAML document.
+    yaml.load(stream)
 
     api_key = '<replace-with-your-api-key>'
     api_secret = '<replace-with-your-api-secret>'
