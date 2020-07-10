@@ -1,3 +1,4 @@
 pytest
 coverage
-Test Michael
+requests
+pyyaml
