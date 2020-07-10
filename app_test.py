@@ -9,7 +9,8 @@ import yaml
 
 def test_request():
     with open(r'config.yml') as file:
-        yaml.load(file)
+        print(file)
+        print(yaml.load(file))
 
     api_key = '<replace-with-your-api-key>'
     api_secret = '<replace-with-your-api-secret>'
