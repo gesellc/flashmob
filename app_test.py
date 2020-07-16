@@ -7,6 +7,7 @@ def test_example():
 import requests
 import yaml
 
+@pytest.mark.skip
 def test_request():
     with open(r'config.yml') as file:
         config = yaml.load(file)
@@ -30,4 +31,8 @@ def detect_fire_on_image(param):
 
 def test_interface():
 
-    assert detect_fire_on_image('https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg') == 0
+    noFire = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg'
+    assert detect_fire_on_image(noFire) == 0
+
+    fire = 'https://images.unsplash.com/photo-1507019658682-2924f9dbd499?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
+    assert detect_fire_on_image(fire) > 90
