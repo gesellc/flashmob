@@ -26,6 +26,8 @@ def test_request():
 
 
 def detect_fire_on_image(param):
+    api_response = call_api(param)
+    confidence_of_tag_detection = parse_api_response(api_response, fire_tag)
     return 0
 
 
