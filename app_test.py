@@ -81,5 +81,5 @@ def get_tag_confidence(api_response, tag):
     #iterate over all available tags in api_response
     #hold current confidence and tag
     #return confidence for specified tag
-    print (api_response['result'])
+    print (api_response['result']['tags'][0])
     return 74.7262115478516
