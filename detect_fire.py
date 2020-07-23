@@ -2,13 +2,14 @@ import requests
 import yaml
 
 
-def detect_fire_on_image(picture_url):
+def detect_fire(picture_url):
     api_response = call_api(picture_url)
     confidence_of_tag_detection = get_tag_confidence(api_response, fire_tag)
     return confidence_of_tag_detection
 
 
 def call_api(image_url):
+    # read credentials from file
     with open(r'config.yml') as file:
         config = yaml.load(file)
     print(config)
