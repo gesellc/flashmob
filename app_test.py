@@ -2,8 +2,6 @@ import pytest
 
 from detect_fire import detect_fire, get_tags_with_confidence, get_tag_confidence
 
-FIRE_CONFIDENCE_THRESHOLD = 90
-
 
 def test_example():
     assert "This" == "This"
@@ -30,6 +28,7 @@ def test_request():
 
 @pytest.mark.xfail
 def test_interface():
+    FIRE_CONFIDENCE_THRESHOLD = 90
 
     noFire = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg'
     assert detect_fire(noFire) == 0
