@@ -3,25 +3,30 @@ import yaml
 
 
 def detect_fire(picture_url):
-    api_response = call_api(picture_url)
+    api_response = get_tags_with_confidence(picture_url)
     confidence_of_tag_detection = get_tag_confidence(api_response, fire_tag)
     return confidence_of_tag_detection
 
 
-def call_api(image_url):
-    # read credentials from file
-    with open(r'config.yml') as file:
-        config = yaml.load(file)
-    print(config)
+def get_tags_with_confidence(image_url):
 
-    api_key = config['k']
-    api_secret = config['s']
+    api_key, api_secret = read_credentials_from_file()
 
     response = requests.get(
         'https://api.imagga.com/v2/tags?image_url=%s' % image_url,
         auth=(api_key, api_secret))
 
     return response.json()
+
+
+def read_credentials_from_file():
+    # read credentials from file
+    with open(r'config.yml') as file:
+        config = yaml.load(file)
+    print(config)
+    api_key = config['k']
+    api_secret = config['s']
+    return api_key, api_secret
 
 
 def get_tag_confidence(api_response, tag):
