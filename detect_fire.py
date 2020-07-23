@@ -2,9 +2,9 @@ import requests
 import yaml
 
 
-def detect_fire(picture_url):
-    api_response = get_tags_with_confidence(picture_url)
-    confidence_of_tag_detection = get_tag_confidence(api_response, fire_tag)
+def detect_fire(image_url):
+    tags = get_tags_with_confidence(image_url)
+    confidence_of_tag_detection = get_tag_confidence(tags, 'fire')
     return confidence_of_tag_detection
 
 
