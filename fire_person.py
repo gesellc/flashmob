@@ -5,7 +5,7 @@ from detect_fire import detect_fire
 
 # no_fire = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg'
 
-# maybe_fire = 'https://images.unsplash.com/photo-1574159087201-e2147a95910d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80'
+# maybe_fire = 'https://images.unsplash.com/photo-1528227436006-bf774de37e4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80'
 
 print('Please enter image url:')
 image_url = input()
