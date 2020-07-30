@@ -23,17 +23,12 @@ def read_credentials_from_file():
     # read credentials from file
     with open(r'config.yml') as file:
         config = yaml.load(file)
-    print(config)
     api_key = config['k']
     api_secret = config['s']
     return api_key, api_secret
 
 
 def get_tag_confidence(api_response, tag):
-    #iterate over all available tags in api_response
-    #hold current confidence and tag
-    #return confidence for specified tag
-    print (api_response['result']['tags'][0])
     for tag_entry in api_response['result']['tags']:
         confidence = tag_entry['confidence']
         confidence_tag = tag_entry['tag']['en']
