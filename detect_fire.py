@@ -22,7 +22,7 @@ def get_tags_with_confidence(image_url):
 def read_credentials_from_file():
     # read credentials from file
     with open(r'config.yml') as file:
-        config = yaml.load(file)
+        config = yaml.load(file, Loader=yaml.FullLoader)
     api_key = config['k']
     api_secret = config['s']
     return api_key, api_secret
