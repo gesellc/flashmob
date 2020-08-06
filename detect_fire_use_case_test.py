@@ -1,8 +1,12 @@
 import pytest
 
+from alarm_level_classification_test import get_alarm_level
+from detect_fire import detect_fire
 
-def detect_fire_use_case(no_fire_image_url):
-    pass
+
+def detect_fire_use_case(image_url):
+    confidence = detect_fire(image_url)
+    return get_alarm_level(confidence)
 
 def test_no_fire_detected():
     no_fire_image_url = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg'
