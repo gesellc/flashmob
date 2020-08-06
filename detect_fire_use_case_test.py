@@ -1,5 +1,10 @@
 import pytest
 
+
+def detect_fire_use_case(no_fire_image_url):
+    pass
+
+
 @pytest.mark.xfail
 # fire  = 'https://images.unsplash.com/photo-1507019658682-2924f9dbd499?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
 
